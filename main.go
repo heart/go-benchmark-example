@@ -23,3 +23,9 @@ func primeNumbers(max int) []int {
 
 	return primes
 }
+
+func main() {
+	for i := 0; i < 10000; i++ {
+		primeNumbers(i)
+	}
+}
